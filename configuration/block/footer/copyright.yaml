@@ -1,0 +1,10 @@
+# блок подвала: копирайт и год без сниппетов
+path: block\footer\copyright.yaml
+name: Подвал с копирайтом
+template: block\footer\copyright.tpl
+variables:
+  - key: copy_name
+    caption: Название копирайта
+    default: Copyright
+    placeholder: 'Copyleft'
+    required: true

@@ -1,0 +1,29 @@
+# базовый сниппет: <img> псевдо-изображение
+path: snippet\basic\pseudo_image.yaml
+name: Псевдо-изображение
+template: snippet\basic\pseudo_image.tpl
+variables:
+  - key: bg_color
+    caption: Цвет фона
+    description: Цвет фона для блока
+    validation: color
+    prefix: '#'
+    default: 'ffffff'
+    placeholder: 'Цвет в hex-формате'
+    required: true
+
+  - key: height
+    caption: Высота блока
+    type: integer
+    validation: integer
+    default: 50
+    placeholder: 50
+    limit_min: 10
+
+  - key: width
+    caption: Ширина блока
+    type: integer
+    validation: integer
+    default: 200
+    placeholder: 200
+    limit_min: 10

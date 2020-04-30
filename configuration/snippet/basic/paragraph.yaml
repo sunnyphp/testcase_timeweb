@@ -1,0 +1,17 @@
+# базовый сниппет: <p> параграф
+path: snippet\basic\paragraph.yaml
+name: Параграф
+template: snippet\basic\paragraph.tpl
+variables:
+  - key: paragraph
+    caption: Текст
+    type: textarea
+    placeholder: Введите текст тут
+    required: true
+
+  - key: color
+    caption: Цвет текста
+    validation: color
+    prefix: '#'
+    default: '000000'
+    placeholder: 'Цвет в hex-формате'

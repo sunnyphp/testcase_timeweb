@@ -1,0 +1,21 @@
+# блок центральной части: блоговая запись (пост)
+path: block\body\post.yaml
+name: Блоговая запись (пост)
+template: block\body\post.tpl
+snippets:
+  - key: b2s_header
+    name: Заголовок
+    variants:
+      - snippet\basic\header.yaml
+    required: true
+
+  - key: b2s_image
+    name: Изображение
+    variants:
+      - snippet\basic\pseudo_image.yaml
+
+  - key: b2s_text
+    name: Текст
+    variants:
+      - snippet\basic\paragraph.yaml
+    required: true

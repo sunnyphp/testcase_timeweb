@@ -1,0 +1,17 @@
+# конфигурация сайта управляемая пользователем
+name: Настройки сайта
+template: user\settings.tpl
+variables:
+  - key: name
+    caption: Имя сайта
+    description: Имя сайта видимое в заголовке каждой страницы
+    default: 'Супер-сайт'
+    required: true
+
+  - key: bg_color
+    caption: Глобальный цвет фона
+    description: Используется если не задан персональный цвет фона на странице
+    validation: color
+    prefix: '#'
+    default: 'ffffff'
+    placeholder: 'Цвет в hex-формате'

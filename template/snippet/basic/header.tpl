@@ -1,0 +1,1 @@
+<h1 style="color:#{$used_vars.color|escape}">{$used_vars.name|escape|default:'Не установлено'}</h1>

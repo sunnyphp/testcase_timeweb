@@ -1,0 +1,30 @@
+# конфигурация страниц управляемая пользователем
+name: Управление страницей
+template: user\settings.tpl
+variables:
+  - key: uri
+    caption: URI адрес
+    description: Путь от корня
+    default: '/'
+    placeholder: '/'
+    required: true
+
+  - key: template
+    caption: Используемый шаблон
+    description: Какой шаблон будет использоваться для страницы
+    default: template\backbone.tpl
+    required: true
+
+  - key: name
+    caption: Название страницы
+    description: Название страницы будет отображено в заголовке сайта
+    default: 'Новая страница'
+    placeholder: 'Новая страница'
+    required: true
+
+  - key: bg_color
+    caption: Цвет фона
+    validation: color
+    prefix: '#'
+    default: 'ffffff'
+    placeholder: 'Цвет в hex-формате'

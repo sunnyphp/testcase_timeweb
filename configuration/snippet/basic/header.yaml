@@ -1,0 +1,15 @@
+# базовый сниппет: <h1> заголовок
+path: snippet\basic\header.yaml
+name: Заголовок
+template: snippet\basic\header.tpl
+variables:
+  - key: name
+    caption: Заголовок
+    required: true
+
+  - key: color
+    caption: Цвет текста
+    validation: color
+    prefix: '#'
+    default: '000000'
+    placeholder: 'Цвет в hex-формате'

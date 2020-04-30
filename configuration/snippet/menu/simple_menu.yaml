@@ -1,0 +1,16 @@
+# сниппет меню
+path: snippet\menu\simple_menu.yaml
+name: Простое меню
+template: snippet\menu\simple_menu.tpl
+variables:
+  - key: link_1
+    caption: Ссылка 1
+    placeholder: '/'
+
+  - key: link_2
+    caption: Ссылка 2
+    placeholder: '/about_us/'
+
+  - key: link_3
+    caption: Ссылка 3
+    placeholder: '/company/feedback/'

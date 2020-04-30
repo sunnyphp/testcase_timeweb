@@ -1,0 +1,12 @@
+# шаблоны, блоки и сниппеты с которыми может взаимодействовать пользователь
+templates:
+  - template\backbone.tpl
+blocks:
+  - block\body\post.yaml
+  - block\header\logo_with_menu_v1.yaml
+  - block\footer\copyright.yaml
+snippets:
+  - snippet\basic\header.yaml
+  - snippet\basic\paragraph.yaml
+  - snippet\basic\pseudo_image.yaml
+  - snippet\menu\simple_menu.yaml

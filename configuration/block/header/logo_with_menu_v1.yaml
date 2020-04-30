@@ -1,0 +1,16 @@
+# блок шапки: логотип с меню
+path: block\header\logo_with_menu_v1.yaml
+name: Шапка с логотипом и меню
+template: block\header\logo_with_menu_v1.tpl
+snippets:
+  - key: b2s_logotype
+    name: Логотип
+    variants:
+      - snippet\basic\pseudo_image.yaml
+      - snippet\basic\header.yaml
+    required: true
+
+  - key: b2s_menu
+    name: Меню
+    variants:
+      - snippet\menu\simple_menu.yaml
